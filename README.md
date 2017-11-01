@@ -2,7 +2,7 @@
 
 Author: Christine Cao
 
-This is a Java program that takes a URL String as input. 
+This is a Java program using standard Java APIs that takes a URL String as input. 
 The URL string is the root of a web site and constructs the set of all links on the website. 
 Using recursive procedure that processes the graph of web pages that are reachable from the root 
 web page until 50 URLs are found or nothing is left to find, placing all links on the Set as variable 
