@@ -29,7 +29,9 @@ in the project root directory:
 	mvn clean package
 
 (3) To run the app 
-	java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com 
+	java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App <a URL String as an arg> 
+	for example: java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com 
+		     java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App https://github.com/
 
 (4) To run the unit testing:
 	mvn test
