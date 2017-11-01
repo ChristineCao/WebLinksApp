@@ -16,7 +16,7 @@ I created the two files for unit tests by using junit 3.8.1
 AppTest.java
 LinkedContentTest.java
 
-I use the build tool Maven to manage the dependencies. See pom.xml
+I use the build tool Maven to manage the dependencies (see pom.xml) and compile with Java version "1.8.0_141"
 
 Here are what I did:
 
