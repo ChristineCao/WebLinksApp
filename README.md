@@ -27,7 +27,23 @@ I use the build tool Maven to manage the dependencies (see pom.xml) and compile 
 
 Here are what I did:
 
-in the project root directory:
+In the project root directory which contains:
+.
+
+..
+
+.classpath
+
+.project
+
+.settings
+
+pom.xml
+
+src
+
+target
+
 
 (1) To comile the sources: 
 	mvn compile
