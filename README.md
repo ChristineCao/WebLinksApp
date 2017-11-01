@@ -6,7 +6,7 @@ This is a Java program using standard Java APIs that takes a URL String as input
 The URL string is the root of a web site and constructs the set of all links on the website. 
 Using recursive procedure that processes the graph of web pages that are reachable from the root 
 web page until 50 URLs are found or nothing is left to find, placing all links on the Set as variable 
-visitedUrlsSet and groupUrlsSet to hold the links.
+visitedUrlsSet and groupUrlsSet to hold the unique links.
 
 The program validates the input URL String, in the class App.java which contains the main method
 takes a URL String as an argument of the program from the command, for example: http://www.google.com
