@@ -60,13 +60,15 @@ src
 target
 
 
-(1) To comile the sources: 
+(1) To comile the sources:
+
 	mvn compile
  
-(2) To create a jar fie
+(2) To create a jar fie:
+
 	mvn clean package
 
-(3) To run the app
+(3) To run the app:
 
 	java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App <a URL String as an arg>
 	
@@ -77,4 +79,5 @@ target
 		java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App https://github.com/
 		
 (4) To run the unit testing:
+
 	mvn test
