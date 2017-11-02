@@ -92,15 +92,19 @@ The steps to run this program in Windows:
 
 	https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F
 
-3. Set path into your system path:
+
+3. Define Environment System variables %JAVA_HOME%, %M2_HOME% or MAVEN_HOME 
+
+
+4. Set path into your system path:
 
 	C:\ProgramData\Oracle\Java\javapath and %M2_HOME%\bin or %MAVEN_HOME%\bin
 
-4. Download the zip file links.zip
+5. Download the zip file links.zip
 
-5. Unzip the file links.zip into a folder for example C:\test 
+6. Unzip the file links.zip into a folder for example C:\test 
 
-6. In the directory C:\test\links to run the app:
+7. In the directory C:\test\links to run the app:
 
 	C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App aURLString
 	
@@ -108,6 +112,6 @@ The steps to run this program in Windows:
 	
 	C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com
 
-7. In the directory C:\test\links to run unit testing:
+8. In the directory C:\test\links to run unit testing:
 
 	C:\test\links>mvn test
