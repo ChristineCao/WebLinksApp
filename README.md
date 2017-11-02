@@ -17,7 +17,7 @@ In the class LinkedContent, the method
 public boolean findContentFromURL(String strLink) 
 and method
 private boolean findURL(String content)
-recursively find the reachable other URLs unitl 50 URLs are found.
+recursively find the reachable other URLs until 50 URLs are found.
 
 The found URLs show as command line output. Exceptions show as command line error. 
 
@@ -60,7 +60,7 @@ src
 target
 
 
-(1) To comile the sources:
+(1) To compile the sources:
 
 	mvn compile
  
