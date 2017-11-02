@@ -81,3 +81,9 @@ target
 (4) To run the unit testing:
 
 	mvn test
+
+To run this program, please download the zip file links.zip, then unzip it into a folder for example C:\test\links, 
+to run the app:
+java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com
+to run unit testing:
+mvn test
