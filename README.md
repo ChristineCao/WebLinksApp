@@ -82,7 +82,7 @@ target
 
 	mvn test
 
-The steps to run this program:
+The steps to run this program in Windows:
 
 1. Download Java  from the link:
 
