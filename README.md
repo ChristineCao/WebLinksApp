@@ -102,12 +102,10 @@ C:\ProgramData\Oracle\Java\javapath
 
 5. Unzip the file links.zip into a folder for example C:\test\links 
 
-6. In the directory C:\test\links
-
-to run the app:
+6. In the directory C:\test\links to run the app:
 
 C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com
 
-to run unit testing:
+7. In the directory C:\test\links to run unit testing:
 
 C:\test\links>mvn test
