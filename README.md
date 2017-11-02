@@ -98,7 +98,7 @@ The steps to run this program:
 
 4. Download the zip file links.zip
 
-5. Unzip the file links.zip into a folder for example C:\test\links 
+5. Unzip the file links.zip into a folder for example C:\test 
 
 6. In the directory C:\test\links to run the app:
 
