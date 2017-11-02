@@ -86,26 +86,28 @@ The steps to run this program:
 
 1. Download Java  from the link:
 
-http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+	http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
 
 2. Download Maven from the link:
 
-https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F
+	https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F
 
 3. Set path into your system path:
 
-C:\ProgramData\Oracle\Java\javapath
+	C:\ProgramData\Oracle\Java\javapath and %M2_HOME%\bin or %MAVEN_HOME%\bin
 
-%M2_HOME%\bin or %MAVEN_HOME%\bin
-
-4.Download the zip file links.zip
+4. Download the zip file links.zip
 
 5. Unzip the file links.zip into a folder for example C:\test\links 
 
 6. In the directory C:\test\links to run the app:
 
-C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com
+	C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App <a URL>
+	
+	for example:
+	
+	C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com
 
 7. In the directory C:\test\links to run unit testing:
 
-C:\test\links>mvn test
+	C:\test\links>mvn test
