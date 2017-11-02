@@ -82,7 +82,23 @@ target
 
 	mvn test
 
-To run this program, java 8 and mvn are needed to be installed in your computer.  Please download the zip file links.zip, then unzip it into a folder for example C:\test\links, 
+To run this program, java 8 and mvn are needed to be installed in your computer. 
+
+Java download link:
+
+http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+
+Maven download link:
+
+https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F
+
+then set into your system path:
+
+C:\ProgramData\Oracle\Java\javapath
+
+%M2_HOME%\bin or %MAVEN_HOME%\bin
+
+Please download the zip file links.zip, then unzip it into a folder for example C:\test\links, 
 in the directory, 
 
 to run the app:
