@@ -22,7 +22,7 @@ recursively find the reachable other URLs until 50 URLs are found.
 The found URLs show as command line output. Exceptions show as command line error. 
 
 
-I created the three java src files:
+There are three Java source files:
 
 App.java            (main class)
 
@@ -31,7 +31,7 @@ LinkedContent.java  (process finding urls)
 Constants.java      (to hold constants)
 
 
-I created the two files for unit tests by using junit 3.8.1
+There are two Java files for unit tests by using junit 3.8.1
 
 AppTest.java
 
@@ -42,7 +42,8 @@ I use the build tool Maven to manage the dependencies (junit 3.8.1) and compile 
 
 Here are what I did:
 
-In the project root directory which contains:
+The project layout looks like this
+
 .
 
 ..
