@@ -82,7 +82,7 @@ target
 
 	mvn test
 
-To run this program, java 8 and mvn need to be installed in your computer.  Please download the zip file links.zip, then unzip it into a folder for example C:\test\links, 
+To run this program, java 8 and mvn are needed to be installed in your computer.  Please download the zip file links.zip, then unzip it into a folder for example C:\test\links, 
 in the directory, 
 
 to run the app:
