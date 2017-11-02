@@ -82,8 +82,13 @@ target
 
 	mvn test
 
-To run this program, please download the zip file links.zip, then unzip it into a folder for example C:\test\links, 
+To run this program, java 8 and mvn need to be installed in your computer.  Please download the zip file links.zip, then unzip it into a folder for example C:\test\links, 
+in the directory, 
+
 to run the app:
-java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com
+
+C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App http://www.google.com
+
 to run unit testing:
-mvn test
+
+C:\test\links>mvn test
