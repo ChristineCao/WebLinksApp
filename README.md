@@ -102,7 +102,7 @@ The steps to run this program:
 
 6. In the directory C:\test\links to run the app:
 
-	C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App aURLString
+	C:\test\links>java -cp target\links-0.0.1-SNAPSHOT.jar io.christine.links.App <a URL String as an arg>
 	
 	for example:
 	
