@@ -38,7 +38,7 @@ AppTest.java
 LinkedContentTest.java
 
 
-I use the build tool Maven to manage the dependencies (see pom.xml) and compile with Java version "1.8.0_141"
+I use the build tool Maven to manage the dependencies (junit 3.8.1) and compile with Java version "1.8.0_141"
 
 Here are what I did:
 
