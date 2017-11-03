@@ -81,7 +81,7 @@ target
 		
 (4) To run the unit testing:
 
-	mvn test
+	mvn test or mvn clean test
 
 The steps to run this program in Windows:
 
