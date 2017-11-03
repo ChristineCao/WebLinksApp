@@ -65,7 +65,7 @@ target
 
 	mvn compile
  
-(2) To create a jar fie:
+(2) To create a jar file:
 
 	mvn clean package
 
@@ -116,3 +116,7 @@ The steps to run this program in Windows:
 8. In the directory C:\test\links to run unit testing:
 
 	C:\test\links>mvn test
+	
+	or
+	
+	c:\test\links>mvn clean test
