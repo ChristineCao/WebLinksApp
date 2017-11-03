@@ -96,7 +96,7 @@ The steps to run this program in Windows:
 
 4. Set path into your system path:
 
-	C:\ProgramData\Oracle\Java\javapath and %MAVEN_HOME%\bin
+	%JAVA_HOME%\bin and %MAVEN_HOME%\bin
 
 5. Download the zip file links.zip
 
